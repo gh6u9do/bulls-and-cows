@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+   <div class="header">
+       <div class="title"><h1>Bulls and cows</h1></div>
+   </div>
+
+   <div class="wrapper">
+
+                                                                     <!-- СТАРТ БОКС -->
+        <div class="start-box">                                             
+          <div class="start-input-field">
+              <button class="start-button" id="start-button">START</button>
+          </div>
+          <div class="game-message">
+              <div class="message-txt" id="message-txt"></div>
+          </div>
+        </div>
+
+                                                                      <!-- ПЛЕЕР БОКС -->
+        <div class="player-box">                                           
+            <div class="input-field">
+                <label for="txtfield">Enter your number:</label>
+                <input type="text" class="txtfield" id="txtfield">
+                <button class="check-button" id="check-button">CHECK</button>
+            </div>
+            <div class="player-message">
+                <div class="default-txt">Result:</div>
+                <div class="p-message-txt"></div>
+            </div>
+            <div class="error-message">
+                <div class="error-txt">Error:</div>
+                <div class="error-code"></div>
+            </div>
+        </div>
+
+    
+        
+   </div>
+   <script src="script.js"></script> 
+</body>
+</html> 
